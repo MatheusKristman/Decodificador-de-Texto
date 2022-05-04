@@ -187,7 +187,7 @@ body {
 }
 
 .copy-scroll {
-    height: 550px;
+    height: 100%;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
