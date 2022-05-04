@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <img class="logo" src="./images/Logo.png" alt="Logo Alura">
+    <textarea name="text-encrypt" class="text-encrypt" id="text-encrypt" placeholder="Digite seu texto"></textarea>
+    <div class="encrypt-box">
+        <h6 class="aviso">Apenas letras minúsculas e sem acento.</h6>
+        <div class="box-btn">
+            <button class="encrypt-btn" id="encrypt-btn">Criptografar</button>
+            <button class="decrypt-btn" id="decrypt-btn">Descriptografar</button>
+        </div>
+    </div>
+    <div class="box" id="box">
+        <div class="box-content" id="box-content">
+            <img src="./images/box-design.svg" alt="box-design" class="box-design">
+            <h2 class="box-title">Nenhuma mensagem encontrada</h2>
+            <p class="box-msg">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div class="box-copy" id="box-copy">
+            <div class="copy-scroll" id="copy-scroll"></div>
+            <button class="copy-btn" id="copy-btn">Copy</button>
+        </div>
+    </div>
+    <h6 class="copyright"><a href="https://github.com/MatheusKristman">&copy; Matheus Kristman</a></h6>
+    <script src="./script.js"></script>
+</body>
+
+</html> 
